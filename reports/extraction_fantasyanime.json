@@ -1,0 +1,1136 @@
+[
+ {
+  "archive": "ff9save01_Alexandria.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save01_Alexandria/epsxe000.mcr",
+    "sha256": "5fed2c4e2588533c511a3b5bf10755fb8e74ee1925d7dca61936af1c7b78dcbe"
+   },
+   {
+    "name": "readme.txt",
+    "size": 136,
+    "problem": null,
+    "extracted_to": "ff9save01_Alexandria/readme.txt",
+    "sha256": "0ef0530312d6f3bac94f383f07441df9887655ad502eb16c0bd525ded977fe6e"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "be2fbf96b1430b56f76beef1fc719e25c4212cba147e5f87bfdefed93454008f"
+ },
+ {
+  "archive": "ff9save02_AlexandriaCastle.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save02_AlexandriaCastle/epsxe000.mcr",
+    "sha256": "095baee1651dd83c4c62c94ae78011a1cc0cd8c2b831a46af40ea35642246dce"
+   },
+   {
+    "name": "readme.txt",
+    "size": 123,
+    "problem": null,
+    "extracted_to": "ff9save02_AlexandriaCastle/readme.txt",
+    "sha256": "57f7b2d5800406bc674a2e7cf5c55959e4dcbac34f767147582e3bd5b626662c"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "dcab3cd3d08e2165b05bd1f73ef3853ea04095a82f787b5725226071f7076a4f"
+ },
+ {
+  "archive": "ff9save03_EvilForest.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save03_EvilForest/epsxe000.mcr",
+    "sha256": "a7f239535aaef4121180e235d99579e121bbda069ffce27f0cd135035833780a"
+   },
+   {
+    "name": "readme.txt",
+    "size": 187,
+    "problem": null,
+    "extracted_to": "ff9save03_EvilForest/readme.txt",
+    "sha256": "6c1f3648aa5a974dfa635f34426ec4f39fdcf28e533b272fd3970d999d12eaa0"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "920656f8f016e6e622dabfc6a8cc7286b32d594b4fc709b5b4ccb021fc6d5bfe"
+ },
+ {
+  "archive": "ff9save04_IceCavern.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save04_IceCavern/epsxe000.mcr",
+    "sha256": "8d5ef41cd23ba075e6088193bdc3e8447ef84ff86c3b2b92b242ecae7697d5ce"
+   },
+   {
+    "name": "readme.txt",
+    "size": 173,
+    "problem": null,
+    "extracted_to": "ff9save04_IceCavern/readme.txt",
+    "sha256": "3cc5df058d55544fc1008a5f9049b95c0b85c1acde0888eea99f17a1b1e88289"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "864007b8c670910c0e6ee39593e2cf003c4e56ad94b7e67b518d9f9518c42dd9"
+ },
+ {
+  "archive": "ff9save05_BlackWaltzBoss.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save05_BlackWaltzBoss/epsxe000.mcr",
+    "sha256": "6f13d3810e2a8b70aca663645c43652e0b4c64bbc58902af9c9d45e2b0d97837"
+   },
+   {
+    "name": "readme.txt",
+    "size": 139,
+    "problem": null,
+    "extracted_to": "ff9save05_BlackWaltzBoss/readme.txt",
+    "sha256": "d975b47b6dd1f308f125d153f29441b29b17200098ed790eac0ebca3d324ef9e"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "35510c72eca208f0b7e617a92da7cc30b2ede4a587a6eca4440b614ee78e37a0"
+ },
+ {
+  "archive": "ff9save06_UndergroundDali.zip",
+  "entries": [
+   {
+    "name": "readme.txt",
+    "size": 125,
+    "problem": null,
+    "extracted_to": "ff9save06_UndergroundDali/readme.txt",
+    "sha256": "768d365cdcb73eae09aff44db3b431ea4c9cf9c0052edb936dfea3ec7f283561"
+   },
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save06_UndergroundDali/epsxe000.mcr",
+    "sha256": "270e733034281483a6d8f61a296f781f1d217d09b0748afbde88eb383f8c7a84"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "940a414dd2bb52f8331409fea0ea9d0f00dc2ef3dac26e3f2f62a985c4508de8"
+ },
+ {
+  "archive": "ff9save07_DaliCargoShip.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save07_DaliCargoShip/epsxe000.mcr",
+    "sha256": "9200dea87708f7d074d102529bf67033ed84231ac056ab07da5bbec6ddfa2aba"
+   },
+   {
+    "name": "readme.txt",
+    "size": 148,
+    "problem": null,
+    "extracted_to": "ff9save07_DaliCargoShip/readme.txt",
+    "sha256": "3a38196f358332ca2b733e556fa5e453affba7025c78d99b93cf5d3a867c1d68"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "f0aeb3fa25da079ae1c051b7493013d281ec660bf9c01a5a33f9228519f9ea2e"
+ },
+ {
+  "archive": "ff9save08_Lindblum.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save08_Lindblum/epsxe000.mcr",
+    "sha256": "b3b2b1d69cb72364843c16733aa3fdf8d271ac5c4cff67612bbabd56196588fb"
+   },
+   {
+    "name": "readme.txt",
+    "size": 212,
+    "problem": null,
+    "extracted_to": "ff9save08_Lindblum/readme.txt",
+    "sha256": "f04de997ca6c20cb2a851545863c31a4a8a57291abc75e50f1c0d2657da08f43"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "9c03445b798351ae6fd143bfb916fc7caa5c4539eb59c32cd8b5c07400dcb6a7"
+ },
+ {
+  "archive": "ff9save09_GarnetsSong.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save09_GarnetsSong/epsxe000.mcr",
+    "sha256": "19e13717c7a749c9b98d16cc4265ec81e1660f89f3956bc28aeccbb759abfb0b"
+   },
+   {
+    "name": "readme.txt",
+    "size": 145,
+    "problem": null,
+    "extracted_to": "ff9save09_GarnetsSong/readme.txt",
+    "sha256": "0c4d2ea72a209bdbb1031f01ff2cee0c49f8a51292e264619a2c772744178d4c"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "e8218ee2524422368a06560f2cd71bb6dc2fef0c8ff26b3a7e1876447a65436a"
+ },
+ {
+  "archive": "ff9save10_FestivaloftheHunt.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save10_FestivaloftheHunt/epsxe000.mcr",
+    "sha256": "07f34ca14cc946d87073b451f8a0b6b2496c04aeb9f233e8408af9a9a7f75de1"
+   },
+   {
+    "name": "readme.txt",
+    "size": 137,
+    "problem": null,
+    "extracted_to": "ff9save10_FestivaloftheHunt/readme.txt",
+    "sha256": "f0bdc71de6ec95e742728629d4bc9b7601cf2574013cbf687b464d2c5483413f"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "69842168bd1f3f990ef21dfa1e43753479fe7e6dc51ed0beb0087c9e5fb9df7c"
+ },
+ {
+  "archive": "ff9save11_GizamalukeGrotto.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save11_GizamalukeGrotto/epsxe000.mcr",
+    "sha256": "806e09c3a9a33b7fe344b1dd47a6ffbe785f0604540a4a049d30cc124af51c35"
+   },
+   {
+    "name": "readme.txt",
+    "size": 123,
+    "problem": null,
+    "extracted_to": "ff9save11_GizamalukeGrotto/readme.txt",
+    "sha256": "bc59525c5d99909433c915534b390ccc05a85d652e443478752eeaff04d72c81"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "66538caede2676fb27f91b957d306ed6a4a92246694a37fb6319adb97b48a271"
+ },
+ {
+  "archive": "ff9save12_SouthGate.zip",
+  "entries": [
+   {
+    "name": "readme.txt",
+    "size": 94,
+    "problem": null,
+    "extracted_to": "ff9save12_SouthGate/readme.txt",
+    "sha256": "2c8365df1d145204d1ed5b090a9b5795ca7458a60edaea07bfda7573e87d2ad1"
+   },
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save12_SouthGate/epsxe000.mcr",
+    "sha256": "62209d42895069675d92379827fe5f6397e90d332058c7ad88441b0958e9b964"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "d13e0682617ef690d5650e1454751623f395d53be3368a6749cc8de960461a5f"
+ },
+ {
+  "archive": "ff9save13_Burmecia.zip",
+  "entries": [
+   {
+    "name": "readme.txt",
+    "size": 122,
+    "problem": null,
+    "extracted_to": "ff9save13_Burmecia/readme.txt",
+    "sha256": "593c8862e5a46bee27fd6a89af4cb686a361028fb2307e48f81cc95a93f0a106"
+   },
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save13_Burmecia/epsxe000.mcr",
+    "sha256": "5b66c7b528456987887950fb2b91adc4ce6ca6c944439e02884d086a8588d653"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "64438afc177f24a1e02315b4b00023f322f1b0c06cc034352b185a1d16c10355"
+ },
+ {
+  "archive": "ff9save14_BurmeciaBoss.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save14_BurmeciaBoss/epsxe000.mcr",
+    "sha256": "17d303c625c803736c7c270d8cba5b3042f9510f71f8ca2bf47d85170b7109b8"
+   },
+   {
+    "name": "readme.txt",
+    "size": 125,
+    "problem": null,
+    "extracted_to": "ff9save14_BurmeciaBoss/readme.txt",
+    "sha256": "cfbfc9106eb7be27138df21ee8fed952881065549ece792fa8ad1739e1c575ce"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "59fa8e4528131f891772a7aab939b0a6a097a5f41cd7be469d7561679b6c5155"
+ },
+ {
+  "archive": "ff9save15_SummitStation.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save15_SummitStation/epsxe000.mcr",
+    "sha256": "b225fefd7091845642f652b76c75f1769a52e4c20c5de05e5a757b5ee9326b8a"
+   },
+   {
+    "name": "readme.txt",
+    "size": 157,
+    "problem": null,
+    "extracted_to": "ff9save15_SummitStation/readme.txt",
+    "sha256": "66c615401a4685bd6b0a1a3161d54dcd1c917258b275627d2da6d29823d30bd4"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "e1ef354a2ace6dcf0cc7a0893134b7ca960599fabdfc3bc51c9ebac13cad479d"
+ },
+ {
+  "archive": "ff9save16_Treno.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save16_Treno/epsxe000.mcr",
+    "sha256": "13915eb87486b01ec7ef391b1a871e5694bea47957f471b1d3072c72ea3cba12"
+   },
+   {
+    "name": "readme.txt",
+    "size": 112,
+    "problem": null,
+    "extracted_to": "ff9save16_Treno/readme.txt",
+    "sha256": "edbdd4acc9a7e9a1b0cc2ad7313eff667fe0d49e7f5055973eb241984e6af5fc"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "e8de5ce08338e297262e42b9540a097f2f77da3fccc79f4266699e8a2e153727"
+ },
+ {
+  "archive": "ff9save17_GarganRoo.zip",
+  "entries": [
+   {
+    "name": "readme.txt",
+    "size": 180,
+    "problem": null,
+    "extracted_to": "ff9save17_GarganRoo/readme.txt",
+    "sha256": "ebaf40b2852aa4eb664e15236b9986f17f8bda044b8aee861af5ed78ff67c103"
+   },
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save17_GarganRoo/epsxe000.mcr",
+    "sha256": "0217729d154a7995da3ef151c13751f4598f4c4dd954e205f7f05e3803802042"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "7c62707c4feeffdea9f6f1c78eb05a6fa71803ebc602de6b43c082ed0537e172"
+ },
+ {
+  "archive": "ff9save18_Cleyra.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save18_Cleyra/epsxe000.mcr",
+    "sha256": "256425832d82d2fa04b7a169a0158a92ae20aaaa859282758d9c6bc76f6b3ad0"
+   },
+   {
+    "name": "readme.txt",
+    "size": 114,
+    "problem": null,
+    "extracted_to": "ff9save18_Cleyra/readme.txt",
+    "sha256": "91160410108a3a7414196007c0a2801d1d181acff7da96aeb9ae087a3bf82ba3"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "8726563792d809d328397983dfa3f61b503df474b4a404cf0589e2a7407dc9b3"
+ },
+ {
+  "archive": "ff9save19_Antlion.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save19_Antlion/epsxe000.mcr",
+    "sha256": "da9ff9ada58bc16f008d1be71b689ff4444e46ba7802b95714c0102e80d2c935"
+   },
+   {
+    "name": "readme.txt",
+    "size": 154,
+    "problem": null,
+    "extracted_to": "ff9save19_Antlion/readme.txt",
+    "sha256": "c667730b324a6f54d8d9e908a443f0e8b01e8b1bd64694b863e386e868f6a5d5"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "2a9f79985f8ba39d2d428abaea0ec97278fe9d9f8f9cffe074baa3ba66dea8b9"
+ },
+ {
+  "archive": "ff9save20_Beatrix.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save20_Beatrix/epsxe000.mcr",
+    "sha256": "c162c6ffb9ca49edb023f56d6c10a7eccea1e2ff91ef1ea2e71a9a46b05d1ddb"
+   },
+   {
+    "name": "readme.txt",
+    "size": 142,
+    "problem": null,
+    "extracted_to": "ff9save20_Beatrix/readme.txt",
+    "sha256": "f9d741861269d58026de3be30752c393bf514aa7aa329cfebd572612fb5e6f78"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "cea18f1656f895075fba3b2dd18c3904a533c4ca1dd5d2eb42bab005cb1d2a36"
+ },
+ {
+  "archive": "ff9save21_SaveGarnet.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save21_SaveGarnet/epsxe000.mcr",
+    "sha256": "bef99a1913d3b0559e128ed07e4fc8b0d09c5cf0a3db6c5c4d27b7c7e22cc1b5"
+   },
+   {
+    "name": "readme.txt",
+    "size": 136,
+    "problem": null,
+    "extracted_to": "ff9save21_SaveGarnet/readme.txt",
+    "sha256": "7798c5ca1f35a2b043f0cb4a0d34c49e7e4800b562da58b1ae5f10cac758334a"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "d55a1f44b4da396b967410903b7a3e729bc19acdcb51d0bfec4e30fbb6a1ecc1"
+ },
+ {
+  "archive": "ff9save22_PinnacleRocks.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save22_PinnacleRocks/epsxe000.mcr",
+    "sha256": "8b3768b3caf5317b1fbb75d1ccb5be3bff206e8b3a93f20d9fa6259326cd2958"
+   },
+   {
+    "name": "readme.txt",
+    "size": 163,
+    "problem": null,
+    "extracted_to": "ff9save22_PinnacleRocks/readme.txt",
+    "sha256": "134e213b13ca434562da31bd5ed410549f9e5fe6707db53b5e290b1761ca8956"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "13e5234a00f7048c2ca7bd5c096f03f5024a15b2dc6766244846d94caaa2a788"
+ },
+ {
+  "archive": "ff9save23_FossilRoo.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save23_FossilRoo/epsxe000.mcr",
+    "sha256": "2b6ff8c37a81992e34da2d9d4d5dae63fa9287d6de63d7a09e3c6b166f9214d3"
+   },
+   {
+    "name": "readme.txt",
+    "size": 152,
+    "problem": null,
+    "extracted_to": "ff9save23_FossilRoo/readme.txt",
+    "sha256": "ecc6674f5d5d4979eb77360b305d73bcc6e701cadc8abafecf98a7bd867a1fec"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "41c0496cdddd164d618251339f326ebb375e25d767cdfe5e44575556e3e8f660"
+ },
+ {
+  "archive": "ff9save24_CondePetie.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save24_CondePetie/epsxe000.mcr",
+    "sha256": "7ce35a6edb9948b6a767a1e3aae93c131ebd3701de3bd734c39f526f87be6c21"
+   },
+   {
+    "name": "readme.txt",
+    "size": 67,
+    "problem": null,
+    "extracted_to": "ff9save24_CondePetie/readme.txt",
+    "sha256": "331af844fe8d1a34b1ac58bdfc8a4d437909a34e97158f07edf850d25657e3e7"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "0903b233632b8a00d403f4f2c6aa039e62ccb1b34bd37305b728d86df4d311cc"
+ },
+ {
+  "archive": "ff9save25_BlackMageVillage.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save25_BlackMageVillage/epsxe000.mcr",
+    "sha256": "a6b41594e53f35e3904be81fb0894e7db5735587ed04751042d2db3acc1f9af2"
+   },
+   {
+    "name": "readme.txt",
+    "size": 132,
+    "problem": null,
+    "extracted_to": "ff9save25_BlackMageVillage/readme.txt",
+    "sha256": "32d68dbb31f41df0a2b8c4478d50c12a2ca09285fbece1b3a4a4e7f1080ea940"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "285e858cd96eaaa3ada9f030a28a151cc3d00deff9a3fb01c0f8af03c637293c"
+ },
+ {
+  "archive": "ff9save26_MountainPath.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save26_MountainPath/epsxe000.mcr",
+    "sha256": "fc218a4f7e35baf4a577485f8263de4b301027907037776bf5605f753ab73de8"
+   },
+   {
+    "name": "readme.txt",
+    "size": 141,
+    "problem": null,
+    "extracted_to": "ff9save26_MountainPath/readme.txt",
+    "sha256": "c8ee31db23b3ce6d59ba28d7e510dc7f562adcb21576471eed9d885affe410fa"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "0a185b6e0186f160f19cabe16e9cba091ac8e785c2b1ec98a879d5c97d05224d"
+ },
+ {
+  "archive": "ff9save27_MadainSari.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save27_MadainSari/epsxe000.mcr",
+    "sha256": "c7071fa2a89e2a2ac2e256283e98f49c868e352347bb7696959b8016ef6fa480"
+   },
+   {
+    "name": "readme.txt",
+    "size": 119,
+    "problem": null,
+    "extracted_to": "ff9save27_MadainSari/readme.txt",
+    "sha256": "496e018523e9199f1e34cdf3439555c301dbdf0cb451cb7888cb83c304e4698b"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "20cdd51d959d66c4f6ea6b711eedafe2b018a3929ebb322245d54eabb83b4622"
+ },
+ {
+  "archive": "ff9save28_LifaTree.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save28_LifaTree/epsxe000.mcr",
+    "sha256": "2678878a1ed19f45beea2609eaf57604d756fa430eceb0c99c411996c3c7bad0"
+   },
+   {
+    "name": "readme.txt",
+    "size": 97,
+    "problem": null,
+    "extracted_to": "ff9save28_LifaTree/readme.txt",
+    "sha256": "24847e38b2cc2a471e3d136884161e7095ebf36e2e2fd40ee9af92e0cd2bad4b"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "7a73e4d7c85c5ee1f57870d0e22c457726a0b0a218f555f241fea8a44dc2e147"
+ },
+ {
+  "archive": "ff9save29_MadainSariThief.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save29_MadainSariThief/epsxe000.mcr",
+    "sha256": "89940ee167432dfd5610e38e6682d1b62dc2827d1b28b6cb87c0a0c198be0862"
+   },
+   {
+    "name": "readme.txt",
+    "size": 179,
+    "problem": null,
+    "extracted_to": "ff9save29_MadainSariThief/readme.txt",
+    "sha256": "0a121dae0fead180a49986cb178f87c9f3280b06eac170c394fd262236fc332e"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "c16be9a3f1a38d60079fae420f5284f379ed6495c96262136bb67ce0a09cf6a6"
+ },
+ {
+  "archive": "ff9save30_LifaTreeKuja.zip",
+  "entries": [
+   {
+    "name": "readme.txt",
+    "size": 97,
+    "problem": null,
+    "extracted_to": "ff9save30_LifaTreeKuja/readme.txt",
+    "sha256": "62b974e65626aaf6cf64891e91af5982b45e29e55d16f1d02bbd94929eda9431"
+   },
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save30_LifaTreeKuja/epsxe000.mcr",
+    "sha256": "828f0e64156e0f270f79abba159012a964f99962f3e36e92a5782cfca554a1ba"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "49c211122e786b9da9cbfb3295e61ca9de69ca757b655f4bbdca311c9bf52e0d"
+ },
+ {
+  "archive": "ff9save31_KujaVsQueen.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save31_KujaVsQueen/epsxe000.mcr",
+    "sha256": "c2b45de1f7cdb54c5d7b3525e01a862344ac9fabe03cc8443ee674ee02c0957a"
+   },
+   {
+    "name": "readme.txt",
+    "size": 110,
+    "problem": null,
+    "extracted_to": "ff9save31_KujaVsQueen/readme.txt",
+    "sha256": "94a99114a7f173cb481012ddbb05a34c3e1151a45778756383662cd25c4a4b9f"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "94c870c26948d8cb447c3a48372ba9adaaf7b0d1eb34329c1cb1e3fabf4376ea"
+ },
+ {
+  "archive": "ff9save32_Disc3.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save32_Disc3/epsxe000.mcr",
+    "sha256": "7eeadc8e2909a8f3519308ce39d8fda0712e1a2ccc01ae11c9caf4df338de15c"
+   },
+   {
+    "name": "readme.txt",
+    "size": 68,
+    "problem": null,
+    "extracted_to": "ff9save32_Disc3/readme.txt",
+    "sha256": "ddcc8a63c5d987c2835a86758b35132c56d094d99f34bac980d9831339f9991b"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "ef99066f42f06c18c735507985f030976b46086d329f4bb791a7cd1e9d5926c0"
+ },
+ {
+  "archive": "ff9save33_TrenoCardTour.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save33_TrenoCardTour/epsxe000.mcr",
+    "sha256": "32a6fbcd6a6dd4b4b4072dd892dca9cc117e8daa6189815069b5c57e70de778a"
+   },
+   {
+    "name": "readme.txt",
+    "size": 91,
+    "problem": null,
+    "extracted_to": "ff9save33_TrenoCardTour/readme.txt",
+    "sha256": "9e036fe4b9db3f29db9640cb7c71be3456eac198ae633f884f8d0c9f43449277"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "bdf821d15353932e43007d11b9741dd62ba13207a70b858ca10af8348a17e8fa"
+ },
+ {
+  "archive": "ff9save34_LastCardnAlex.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save34_LastCardnAlex/epsxe000.mcr",
+    "sha256": "de6e6d90c90b2f37515ba2fc5b3c60a73c1e034f675c12e9f01e6196f0559dd3"
+   },
+   {
+    "name": "readme.txt",
+    "size": 201,
+    "problem": null,
+    "extracted_to": "ff9save34_LastCardnAlex/readme.txt",
+    "sha256": "f21de1aee789a26bbfbe4031a2c29771025ef6a18811384204f8ce57891b6c07"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "0c40dba3fc52aadf0329e1e8e4560eee2f583c81c756ca99e54d4e2c311684bc"
+ },
+ {
+  "archive": "ff9save35_FindPotions.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save35_FindPotions/epsxe000.mcr",
+    "sha256": "cb69046382cdbe5c70637fe14b51208df539dd47ea813de31704533c93decb0c"
+   },
+   {
+    "name": "readme.txt",
+    "size": 213,
+    "problem": null,
+    "extracted_to": "ff9save35_FindPotions/readme.txt",
+    "sha256": "8a210ce6db1ba51be150faf817a5357ffd10dc7c4618675c86378e0321dcbefd"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "21cd8b0dca19bec883d1063245771e776e09f60ccbb93bb616735023c69ef7e5"
+ },
+ {
+  "archive": "ff9save36_BlackMageVillage.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save36_BlackMageVillage/epsxe000.mcr",
+    "sha256": "fd9a5904b6a07f02dd2223a9471932ab425adbb890a96d3df47020421eb7f39c"
+   },
+   {
+    "name": "readme.txt",
+    "size": 209,
+    "problem": null,
+    "extracted_to": "ff9save36_BlackMageVillage/readme.txt",
+    "sha256": "1e6fd4555479e51d3cf36e8fb9e07c78a50585c5939899d9d55524be3ad2a11a"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "4c24a67609079f8c463343d6cfc1a84d39ca610a851a6a786498549b3bff1b55"
+ },
+ {
+  "archive": "ff9save37_KujaDesert.zip",
+  "entries": [
+   {
+    "name": "readme.txt",
+    "size": 100,
+    "problem": null,
+    "extracted_to": "ff9save37_KujaDesert/readme.txt",
+    "sha256": "f5cbf5228570313f151a401fa928103d7a6c11eb392242a4410b34e7c3de9afa"
+   },
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save37_KujaDesert/epsxe000.mcr",
+    "sha256": "0fa24fa7508308ac48bd24c25c4ce41bd7cd8e81071f4c20409325846ec8600d"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "f1a2ca0a63f07f1fdd8c277afa6728deb2aca1066fd5b429113e58fdc9ace0bd"
+ },
+ {
+  "archive": "ff9save38_Oielvert.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save38_Oielvert/epsxe000.mcr",
+    "sha256": "7ee28dfd6cea90eefd3c4c5e1bb57bb6b1ab5fbc590b882d403752c88a50e0d6"
+   },
+   {
+    "name": "readme.txt",
+    "size": 105,
+    "problem": null,
+    "extracted_to": "ff9save38_Oielvert/readme.txt",
+    "sha256": "40487761c96a454dbc8f87b0c42e13948f9aef43909290c86f414450aadbcb71"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "421a29693736b730172b58d341ffda59785fe290ca03b6427a51177f9a305dd3"
+ },
+ {
+  "archive": "ff9save39_OielvertBoss.zip",
+  "entries": [
+   {
+    "name": "readme.txt",
+    "size": 147,
+    "problem": null,
+    "extracted_to": "ff9save39_OielvertBoss/readme.txt",
+    "sha256": "9e080028a878e930252a8b91dee823eca5a23486f96702c9765f1e368fca7d54"
+   },
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save39_OielvertBoss/epsxe000.mcr",
+    "sha256": "9837f4d01b74aa6539ceb8c1b442e4a486e64a9a4fba0ac0309a88d1e3b9399a"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "f95e2ee1c797563440804fdeea1de7f04dd2e38ee8254db63f22ad694e381e62"
+ },
+ {
+  "archive": "ff9save40_KujaPalace.zip",
+  "entries": [
+   {
+    "name": "readme.txt",
+    "size": 143,
+    "problem": null,
+    "extracted_to": "ff9save40_KujaPalace/readme.txt",
+    "sha256": "ab09d6b05b767cbe0944f541736087fd32f0d2c69d4ff254cd222a1b7ec6926c"
+   },
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save40_KujaPalace/epsxe000.mcr",
+    "sha256": "5c10a9b1daf427187cc2569cacc6174c0183bcc338c2b94a1b22c362314c176d"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "a24f191c9dd62caf33b7ab93800b9025ce5ec12f065fd25f79b25a3d605b7b54"
+ },
+ {
+  "archive": "ff9save41_MountGulug.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save41_MountGulug/epsxe000.mcr",
+    "sha256": "0ef3e49e3c7da72f81be6b05e02ce3d2ba5f14aa60bc6e4b801a4734e8eae410"
+   },
+   {
+    "name": "readme.txt",
+    "size": 102,
+    "problem": null,
+    "extracted_to": "ff9save41_MountGulug/readme.txt",
+    "sha256": "11f5c823e97f1d3f9f15565c74fa4f3372f9d33a3cebea2586846a3b14cb3ae2"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "1ec71902cafe2e5abd75ec97d74a46c122f54c9144a316022dbcec746f57448a"
+ },
+ {
+  "archive": "ff9save42_MountGulugEnd.zip",
+  "entries": [
+   {
+    "name": "readme.txt",
+    "size": 115,
+    "problem": null,
+    "extracted_to": "ff9save42_MountGulugEnd/readme.txt",
+    "sha256": "3025c7b36cb17e415758cb8bc6e2944f7aeff601426e7d10a745a272b575e78f"
+   },
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save42_MountGulugEnd/epsxe000.mcr",
+    "sha256": "18c33923f92ff0ced99c0f152fd4c795c86e4e249bffb840af2e2422e8b57968"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "f55ea06e61bc18be6f1d833d32481ff83985f6dd5367a5978a94566700083b19"
+ },
+ {
+  "archive": "ff9save43_IpsensCastle.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save43_IpsensCastle/epsxe000.mcr",
+    "sha256": "b94dfd4366620809e00faad5cad0a4758f7994486c6d8bf4f960087b09e076a8"
+   },
+   {
+    "name": "readme.txt",
+    "size": 98,
+    "problem": null,
+    "extracted_to": "ff9save43_IpsensCastle/readme.txt",
+    "sha256": "bdef13575158efbdb22d27e6237cc25e70365aa64a7eadde9a6a2dd0ab4e1973"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "2a53ed55ea7565c11a33344e059eb3e96ba8e1795ae340ca6c0fb353f3254926"
+ },
+ {
+  "archive": "ff9save44_EarthShrine.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save44_EarthShrine/epsxe000.mcr",
+    "sha256": "ca1351f04ec3d7caa2f99581d3a27c1a02ffdf896edc30838c34ebfa7ae8cc8a"
+   },
+   {
+    "name": "readme.txt",
+    "size": 136,
+    "problem": null,
+    "extracted_to": "ff9save44_EarthShrine/readme.txt",
+    "sha256": "cebb820bd5e402618482c7f76b3c23fda8d6ab4fa2ce350db3513d4bc56a76e6"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "0282c4e7331978be6d1ce4825231d458ac169450d339cc385e63a3ec30e02f7b"
+ },
+ {
+  "archive": "ff9save45_ShimmeringIsland.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save45_ShimmeringIsland/epsxe000.mcr",
+    "sha256": "3389d941887b403d22a7e7302bf5e9772e2adf7ed0a89ea6d0e7b33fceaa572c"
+   },
+   {
+    "name": "readme.txt",
+    "size": 211,
+    "problem": null,
+    "extracted_to": "ff9save45_ShimmeringIsland/readme.txt",
+    "sha256": "8a2525859e903bf2deeba9d20562e62af8205bcae5c3c06b58ea1dae2a646c88"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "470c495387077e48b762df6a5e031844d2a85a2ccf5b036c0712f78f03230b11"
+ },
+ {
+  "archive": "ff9save46_BranBal-Zidane.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save46_BranBal-Zidane/epsxe000.mcr",
+    "sha256": "325169cb7b61a5e3134d7f0f071dedf830ce4a1e069720767cba4dbe5816eacf"
+   },
+   {
+    "name": "readme.txt",
+    "size": 196,
+    "problem": null,
+    "extracted_to": "ff9save46_BranBal-Zidane/readme.txt",
+    "sha256": "4a06fa4912c37cb329a542ce46d9c0d84778c45fe1830ff10ed1771556e521c2"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "738cadada48c59525f3c9d1090c6c535f446dcee98cf5959893907f2d132b9d2"
+ },
+ {
+  "archive": "ff9save47_Pandemonium.zip",
+  "entries": [
+   {
+    "name": "readme.txt",
+    "size": 130,
+    "problem": null,
+    "extracted_to": "ff9save47_Pandemonium/readme.txt",
+    "sha256": "b376036f386185ed47d700090913dc69e7c473bf6b317c863f352edb57410dff"
+   },
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save47_Pandemonium/epsxe000.mcr",
+    "sha256": "32d6962657a5882c206476c6123a373c3552a0c56d592b445cf85c05efa60b9e"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "e839b458fdc5c7b2750278588ec03ecb53fad8421d133114d9d34eeab2b6fe1c"
+ },
+ {
+  "archive": "ff9save48_PandemoniumEnd.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save48_PandemoniumEnd/epsxe000.mcr",
+    "sha256": "f3aaab0adfc95a3ad0c4c08192915419bc0ddacc5a933c95920e31bebb788833"
+   },
+   {
+    "name": "readme.txt",
+    "size": 181,
+    "problem": null,
+    "extracted_to": "ff9save48_PandemoniumEnd/readme.txt",
+    "sha256": "876196de30055d29719242a230d3a455f8bd409b6fa7168c69b21985c391272b"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "a801ef2629cf551577d6f4954f006d3c42725be9a7f2eb76945f7d48ab94c74d"
+ },
+ {
+  "archive": "ff9save49_Disc4.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save49_Disc4/epsxe000.mcr",
+    "sha256": "6977900c7c4a2f0c142f88c38ce891ae944621be06ee5a0e844fe19460cf5a39"
+   },
+   {
+    "name": "readme.txt",
+    "size": 68,
+    "problem": null,
+    "extracted_to": "ff9save49_Disc4/readme.txt",
+    "sha256": "5eefd5ad2237f2108e201ec5d97945ea493917446747b911a8d11e30dd21805d"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "1ed180f4ba9af0a0c8892a83f50aa12686729849a4ce60b628d1718dc26947e7"
+ },
+ {
+  "archive": "ff9save50_AirshipsVsDragons.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save50_AirshipsVsDragons/epsxe000.mcr",
+    "sha256": "1ce5fdc19b902a87a630c495f2b63cc0dc0236cb143a5f3761a7fd875c2c9748"
+   },
+   {
+    "name": "readme.txt",
+    "size": 188,
+    "problem": null,
+    "extracted_to": "ff9save50_AirshipsVsDragons/readme.txt",
+    "sha256": "dc3d195ce7fd5696ff0e56361b15658f030a6340041b21f290f771a9a6bffa0f"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "328e73630e68ebbc7cab366009c20d5c895102b5c049147e14c7ea571da5d8fc"
+ },
+ {
+  "archive": "ff9save51_Memoria.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save51_Memoria/epsxe000.mcr",
+    "sha256": "46469a5d83251c7ae6f6f63abce18a7ca049dec5e5411d9e5703c92616c26e66"
+   },
+   {
+    "name": "readme.txt",
+    "size": 77,
+    "problem": null,
+    "extracted_to": "ff9save51_Memoria/readme.txt",
+    "sha256": "374550d826c79fe2a6e1f5bad58d9e222e35b4469238df9783448f673cc6b35a"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "6305e901d532404cfed80618240be4c7245cdc169f38dc1e2326bca388434a08"
+ },
+ {
+  "archive": "ff9save52_Memoria-Midway.zip",
+  "entries": [
+   {
+    "name": "readme.txt",
+    "size": 143,
+    "problem": null,
+    "extracted_to": "ff9save52_Memoria-Midway/readme.txt",
+    "sha256": "9b1666c10cb5a1b3cd1914055304154bc23cad4ffaf7d32a817afc94969a37d1"
+   },
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save52_Memoria-Midway/epsxe000.mcr",
+    "sha256": "46469a5d83251c7ae6f6f63abce18a7ca049dec5e5411d9e5703c92616c26e66"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "af8d52f831fd3d662b1166de094cf8463123aacc0a1b14cae4cb530400961c2d"
+ },
+ {
+  "archive": "ff9save53_Deathguise.zip",
+  "entries": [
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save53_Deathguise/epsxe000.mcr",
+    "sha256": "eb60033b37ef76dcccb8fe33de55a44462cff0aae437ff6fbf0c01f616aeb94b"
+   },
+   {
+    "name": "readme.txt",
+    "size": 130,
+    "problem": null,
+    "extracted_to": "ff9save53_Deathguise/readme.txt",
+    "sha256": "92cdf96a3422d27249fe98d090e6716a75cdfafb10c3acb40e5f0ce6dbf3e7c1"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "52f9d2ed9b1c261d9913cf9d4d40ce58a8f8c3bc2975942802c7d736f2a9346f"
+ },
+ {
+  "archive": "ff9save54_Kuja-Final.zip",
+  "entries": [
+   {
+    "name": "readme.txt",
+    "size": 126,
+    "problem": null,
+    "extracted_to": "ff9save54_Kuja-Final/readme.txt",
+    "sha256": "965096285295c7ec7b4e24f4513aa1e90da475252dd03d2f0fa0e27a34dcda90"
+   },
+   {
+    "name": "epsxe000.mcr",
+    "size": 131072,
+    "problem": null,
+    "extracted_to": "ff9save54_Kuja-Final/epsxe000.mcr",
+    "sha256": "d45486767a17c6703f3b19d0bdafeae7858083721a320eae30b341642234df6d"
+   }
+  ],
+  "ok": true,
+  "archive_sha256": "99a2753ee5058dcdab177139200ae40eb03309b376e180445e3ef35fdc975477"
+ }
+]

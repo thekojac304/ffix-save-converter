@@ -1,0 +1,1032 @@
+{
+ "converted": 54,
+ "total": 54,
+ "rows": [
+  {
+   "fixture": "ff9save01_Alexandria",
+   "scenario": 1155,
+   "location": "Alexandria/Steeple",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 115,
+    "fldLocNo": 33,
+    "btlMapNo": 336,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9009,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save02_AlexandriaCastle",
+   "scenario": 1190,
+   "location": "A. Castle/Guardhouse",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 150,
+    "fldLocNo": 3,
+    "btlMapNo": 338,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9009,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save03_EvilForest",
+   "scenario": 2005,
+   "location": "Prima Vista/Crash Site",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 206,
+    "fldLocNo": 40,
+    "btlMapNo": 334,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9009,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save04_IceCavern",
+   "scenario": 2421,
+   "location": "Gunitas Basin",
+   "state": {
+    "mode": 3,
+    "prevMode": 3,
+    "fldMapNo": 262,
+    "fldLocNo": 4,
+    "btlMapNo": 358,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9000,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save05_BlackWaltzBoss",
+   "scenario": 2505,
+   "location": "Ice Cavern/Cave",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 306,
+    "fldLocNo": 8,
+    "btlMapNo": 27,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9000,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save06_UndergroundDali",
+   "scenario": 2711,
+   "location": "Dali/Storage Area",
+   "state": {
+    "mode": 1,
+    "prevMode": 3,
+    "fldMapNo": 407,
+    "fldLocNo": 50,
+    "btlMapNo": 29,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9011,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save07_DaliCargoShip",
+   "scenario": 2840,
+   "location": "Dali/Inn",
+   "state": {
+    "mode": 1,
+    "prevMode": 3,
+    "fldMapNo": 351,
+    "fldLocNo": 47,
+    "btlMapNo": 294,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9011,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save08_Lindblum",
+   "scenario": 3110,
+   "location": "Lindblum/Inn",
+   "state": {
+    "mode": 1,
+    "prevMode": 3,
+    "fldMapNo": 554,
+    "fldLocNo": 276,
+    "btlMapNo": 296,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9001,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save09_GarnetsSong",
+   "scenario": 3120,
+   "location": "L. Castle/Guest Room",
+   "state": {
+    "mode": 1,
+    "prevMode": 9,
+    "fldMapNo": 611,
+    "fldLocNo": 22,
+    "btlMapNo": 296,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9010,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save10_FestivaloftheHunt",
+   "scenario": 3165,
+   "location": "L. Castle/Guest Room",
+   "state": {
+    "mode": 1,
+    "prevMode": 9,
+    "fldMapNo": 611,
+    "fldLocNo": 22,
+    "btlMapNo": 296,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9010,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save11_GizamalukeGrotto",
+   "scenario": 3700,
+   "location": "Eunorus Plains",
+   "state": {
+    "mode": 3,
+    "prevMode": 3,
+    "fldMapNo": 602,
+    "fldLocNo": 22,
+    "btlMapNo": 221,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9000,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save12_SouthGate",
+   "scenario": 3760,
+   "location": "S. Gate/Bohden Sta.",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 802,
+    "fldLocNo": 74,
+    "btlMapNo": 326,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9010,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save13_Burmecia",
+   "scenario": 3760,
+   "location": "Daines-horse Basin",
+   "state": {
+    "mode": 3,
+    "prevMode": 3,
+    "fldMapNo": 707,
+    "fldLocNo": 51,
+    "btlMapNo": 215,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9000,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save14_BurmeciaBoss",
+   "scenario": 3880,
+   "location": "Burmecia/Vault",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 764,
+    "fldLocNo": 77,
+    "btlMapNo": 38,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9000,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save15_SummitStation",
+   "scenario": 4210,
+   "location": "S. Gate/Rest Stop",
+   "state": {
+    "mode": 1,
+    "prevMode": 9,
+    "fldMapNo": 810,
+    "fldLocNo": 74,
+    "btlMapNo": 4,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9000,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save16_Treno",
+   "scenario": 4390,
+   "location": "Bentini Heights",
+   "state": {
+    "mode": 3,
+    "prevMode": 3,
+    "fldMapNo": 807,
+    "fldLocNo": 74,
+    "btlMapNo": 197,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9002,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save17_GarganRoo",
+   "scenario": 4500,
+   "location": "Gargan Roo/Entrance",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 950,
+    "fldLocNo": 359,
+    "btlMapNo": 78,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9002,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save18_Cleyra",
+   "scenario": 4600,
+   "location": "Vube Desert",
+   "state": {
+    "mode": 3,
+    "prevMode": 3,
+    "fldMapNo": 769,
+    "fldLocNo": 77,
+    "btlMapNo": 204,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9000,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save19_Antlion",
+   "scenario": 4725,
+   "location": "Cleyra/Inn",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 1056,
+    "fldLocNo": 44,
+    "btlMapNo": 322,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9000,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save20_Beatrix",
+   "scenario": 4980,
+   "location": "Cleyra/Cathedral",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 1109,
+    "fldLocNo": 290,
+    "btlMapNo": 297,
+    "btlSubMapNo": 1,
+    "wldMapNo": 9000,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save21_SaveGarnet",
+   "scenario": 5100,
+   "location": "A. Castle/Chapel",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 1205,
+    "fldLocNo": 289,
+    "btlMapNo": 74,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9000,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save22_PinnacleRocks",
+   "scenario": 5510,
+   "location": "Pinnacle Rocks/Path",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 1252,
+    "fldLocNo": 134,
+    "btlMapNo": 75,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9000,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save23_FossilRoo",
+   "scenario": 5690,
+   "location": "Lachenta Wetlands",
+   "state": {
+    "mode": 3,
+    "prevMode": 1,
+    "fldMapNo": 650,
+    "fldLocNo": 71,
+    "btlMapNo": 331,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9000,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save24_CondePetie",
+   "scenario": 6000,
+   "location": "Donna Plains",
+   "state": {
+    "mode": 3,
+    "prevMode": 3,
+    "fldMapNo": 1425,
+    "fldLocNo": 361,
+    "btlMapNo": 218,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9003,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save25_BlackMageVillage",
+   "scenario": 6130,
+   "location": "Magdalene Forest",
+   "state": {
+    "mode": 3,
+    "prevMode": 3,
+    "fldMapNo": 1500,
+    "fldLocNo": 32,
+    "btlMapNo": 289,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9003,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save26_MountainPath",
+   "scenario": 6270,
+   "location": "Conde Petie/Item Shop",
+   "state": {
+    "mode": 1,
+    "prevMode": 3,
+    "fldMapNo": 1509,
+    "fldLocNo": 32,
+    "btlMapNo": 287,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9003,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save27_MadainSari",
+   "scenario": 6310,
+   "location": "Lucid Plains",
+   "state": {
+    "mode": 3,
+    "prevMode": 1,
+    "fldMapNo": 1557,
+    "fldLocNo": 31,
+    "btlMapNo": 888,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9003,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save28_LifaTree",
+   "scenario": 6690,
+   "location": "Pualei Plains",
+   "state": {
+    "mode": 3,
+    "prevMode": 1,
+    "fldMapNo": 1555,
+    "fldLocNo": 31,
+    "btlMapNo": 657,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9003,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save29_MadainSariThief",
+   "scenario": 6795,
+   "location": "Lucid Plains",
+   "state": {
+    "mode": 3,
+    "prevMode": 3,
+    "fldMapNo": 1557,
+    "fldLocNo": 31,
+    "btlMapNo": 218,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9003,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save30_LifaTreeKuja",
+   "scenario": 6890,
+   "location": "Pualei Plains",
+   "state": {
+    "mode": 3,
+    "prevMode": 3,
+    "fldMapNo": 1555,
+    "fldLocNo": 31,
+    "btlMapNo": 657,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9003,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save31_KujaVsQueen",
+   "scenario": 6960,
+   "location": "Iifa Tree/Tree Trunk",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 1663,
+    "fldLocNo": 738,
+    "btlMapNo": 115,
+    "btlSubMapNo": 0,
+    "wldMapNo": 9003,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save32_Disc3",
+   "scenario": 6990,
+   "location": "Start of DISC 3",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 1812,
+    "fldLocNo": -1,
+    "btlMapNo": 114,
+    "btlSubMapNo": 1,
+    "wldMapNo": 9003,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save33_TrenoCardTour",
+   "scenario": 7550,
+   "location": "Bentini Heights",
+   "state": {
+    "mode": 3,
+    "prevMode": 1,
+    "fldMapNo": 1908,
+    "fldLocNo": 741,
+    "btlMapNo": 114,
+    "btlSubMapNo": 0,
+    "wldMapNo": 9003,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save34_LastCardnAlex",
+   "scenario": 7700,
+   "location": "Bentini Heights",
+   "state": {
+    "mode": 3,
+    "prevMode": 1,
+    "fldMapNo": 1908,
+    "fldLocNo": 741,
+    "btlMapNo": 114,
+    "btlSubMapNo": 0,
+    "wldMapNo": 9003,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save35_FindPotions",
+   "scenario": 9320,
+   "location": "L. Castle/Guest Room",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 2161,
+    "fldLocNo": 943,
+    "btlMapNo": 915,
+    "btlSubMapNo": 2,
+    "wldMapNo": 9003,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save36_BlackMageVillage",
+   "scenario": 9400,
+   "location": "Magdalene Forest",
+   "state": {
+    "mode": 3,
+    "prevMode": 3,
+    "fldMapNo": 2855,
+    "fldLocNo": 186,
+    "btlMapNo": 289,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9003,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save37_KujaDesert",
+   "scenario": 9450,
+   "location": "Kiera Desert",
+   "state": {
+    "mode": 3,
+    "prevMode": 3,
+    "fldMapNo": 2152,
+    "fldLocNo": 943,
+    "btlMapNo": 613,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9003,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save38_Oielvert",
+   "scenario": 9700,
+   "location": "Oeilvert/Outside",
+   "state": {
+    "mode": 1,
+    "prevMode": 3,
+    "fldMapNo": 2250,
+    "fldLocNo": 124,
+    "btlMapNo": 68,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9005,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save39_OielvertBoss",
+   "scenario": 9745,
+   "location": "Oeilvert/Star Display",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 2259,
+    "fldLocNo": 124,
+    "btlMapNo": 467,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9005,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save40_KujaPalace",
+   "scenario": 9825,
+   "location": "Palace/Library",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 2220,
+    "fldLocNo": 740,
+    "btlMapNo": 851,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9005,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save41_MountGulug",
+   "scenario": 9950,
+   "location": "Esto Gaza/Terrace",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 2304,
+    "fldLocNo": 908,
+    "btlMapNo": 863,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9003,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save42_MountGulugEnd",
+   "scenario": 9950,
+   "location": "Gulug/Room",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 2354,
+    "fldLocNo": 484,
+    "btlMapNo": 194,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9003,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save43_IpsensCastle",
+   "scenario": 10400,
+   "location": "Hadris Basin",
+   "state": {
+    "mode": 3,
+    "prevMode": 1,
+    "fldMapNo": 2800,
+    "fldLocNo": 166,
+    "btlMapNo": 278,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9007,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save44_EarthShrine",
+   "scenario": 10670,
+   "location": "Triquai Plains",
+   "state": {
+    "mode": 3,
+    "prevMode": 1,
+    "fldMapNo": 2550,
+    "fldLocNo": 121,
+    "btlMapNo": 658,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9007,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save45_ShimmeringIsland",
+   "scenario": 10700,
+   "location": "Blairsurpass Plains",
+   "state": {
+    "mode": 3,
+    "prevMode": 1,
+    "fldMapNo": 2853,
+    "fldLocNo": 186,
+    "btlMapNo": 2,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9007,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save46_BranBal-Zidane",
+   "scenario": 10925,
+   "location": "Bran Bal/Storage",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 2655,
+    "fldLocNo": 52,
+    "btlMapNo": 885,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9007,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save47_Pandemonium",
+   "scenario": 10960,
+   "location": "Pand./Hall",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 2706,
+    "fldLocNo": 344,
+    "btlMapNo": 897,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9007,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save48_PandemoniumEnd",
+   "scenario": 10980,
+   "location": "Pand./Maze",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 2714,
+    "fldLocNo": 344,
+    "btlMapNo": 917,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9007,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save49_Disc4",
+   "scenario": 10995,
+   "location": "Start of DISC 4",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 3052,
+    "fldLocNo": -1,
+    "btlMapNo": 891,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9007,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save50_AirshipsVsDragons",
+   "scenario": 11100,
+   "location": "Pualei Plains",
+   "state": {
+    "mode": 3,
+    "prevMode": 1,
+    "fldMapNo": 3050,
+    "fldLocNo": 1073,
+    "btlMapNo": 672,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9008,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save51_Memoria",
+   "scenario": 11615,
+   "location": "Memoria/Entrance",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 2901,
+    "fldLocNo": 694,
+    "btlMapNo": 931,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9008,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save52_Memoria-Midway",
+   "scenario": 11615,
+   "location": "Memoria/Entrance",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 2901,
+    "fldLocNo": 694,
+    "btlMapNo": 931,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9008,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save53_Deathguise",
+   "scenario": 11765,
+   "location": "Crystal World",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 2925,
+    "fldLocNo": 694,
+    "btlMapNo": 166,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9008,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  },
+  {
+   "fixture": "ff9save54_Kuja-Final",
+   "scenario": 11770,
+   "location": "Crystal World",
+   "state": {
+    "mode": 1,
+    "prevMode": 1,
+    "fldMapNo": 2925,
+    "fldLocNo": 694,
+    "btlMapNo": 936,
+    "btlSubMapNo": -1,
+    "wldMapNo": 9008,
+    "wldLocNo": 68
+   },
+   "ok": true,
+   "warnings": [],
+   "defaulted": 4,
+   "semantic_round_trip": true
+  }
+ ]
+}

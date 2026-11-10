@@ -1,0 +1,19 @@
+Qt for Python (PySide6, shiboken6) and Qt
+==========================================
+
+The FFIX Save Converter desktop application uses Qt for Python (PySide6 and shiboken6, version 6.12.0) and the Qt 6
+libraries they ship with (Qt Core, Qt Gui, Qt Widgets and their Windows platform and style plugins).
+
+Copyright (C) The Qt Company Ltd. and other contributors.
+
+These components are used under the GNU Lesser General Public License version 3 (LGPL-3.0). The license texts are in
+this folder: LGPL-3.0.txt, and GPL-3.0.txt (which the LGPL-3.0 incorporates by reference).
+
+The Qt and PySide6 libraries are included unmodified, as separate files in the _internal\PySide6 and
+_internal\shiboken6 folders next to the program. You may replace them with your own compatible builds of the same
+version (6.12.x). The FFIX Save Converter itself is MIT-licensed and does not restrict that.
+
+Source code for these components:
+  Qt for Python:  https://code.qt.io/cgit/pyside/pyside-setup.git (tag v6.12.0)
+                  https://download.qt.io/official_releases/QtForPython/
+  Qt:             https://code.qt.io/cgit/qt/qt5.git and https://download.qt.io/official_releases/qt/

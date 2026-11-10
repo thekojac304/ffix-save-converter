@@ -1,0 +1,102 @@
+Package: release\v0.3.0-dev\FFIX-Save-Converter-0.3.0-dev-win-x64.zip (sha256 9f4fae83d82793291fddba89e802bb9020218baedba86ee0adf8771710913d65)
+Fresh extraction into a new folder; Python removed from PATH. 2026-11-06 22:41
+
+== smoke_test_exe.ps1 (command line, PowerShell 7)
+version                      PASS
+inspect PS1 card             PASS
+inspect PC file              PASS
+PS1 -> PC                    PASS
+PC -> PS1                    PASS
+PS1->PC->PS1                 PASS
+verify PS1 rt                PASS
+PC->PS1->PC                  PASS
+verify PC rt                 PASS
+into existing card           PASS
+batch card -> PC             PASS
+batch PC -> cards            PASS
+batch dry run                PASS
+batch needs approval to replace PASS
+recover: nothing to undo     PASS
+refuse overwrite             PASS
+refuse in-place w/o force    PASS
+invalid input                PASS
+ambiguous source             PASS
+missing file                 PASS
+sources unchanged            PASS
+unrelated block preserved    PASS
+
+22 passed, 0 failed
+
+== smoke_test_gui.ps1 (Windows UI Automation, Windows PowerShell 5.1)
+A window opens                               PASS
+A lists 15 saves                             PASS
+A convert-all is the default                 PASS
+A placement shown                            PASS
+A Convert enabled                            PASS
+A converts and verifies                      PASS
+A output written                             PASS
+A output has slot 1 files 1-15               PASS
+A every save verifies with the CLI           PASS
+A closes cleanly                             PASS
+A source unchanged                           PASS
+B window opens                               PASS
+B existing-file choice offered               PASS
+B Convert enabled                            PASS
+B says existing saves are kept               PASS
+B converts and verifies                      PASS
+B file holds old and new saves               PASS
+B verified backup of the previous file       PASS
+B closes cleanly                             PASS
+C 28-save PC file prepared with the CLI      PASS
+C window opens                               PASS
+C plans two memory cards                     PASS
+C Convert enabled                            PASS
+C converts and verifies                      PASS
+C two cards and a manifest                   PASS
+C cards hold 15 + 13 saves                   PASS
+C last save verifies with the CLI            PASS
+C closes cleanly                             PASS
+D window opens                               PASS
+D Convert button is keyboard-focusable       PASS
+D Alt+C converts                             PASS
+D Alt+M returns to the steps                 PASS
+D closes cleanly                             PASS
+
+33 passed, 0 failed
+
+== gui_matrix.ps1 (themes, sizes, scale factors, scripted decisions)
+appearance light-520x460-x1                                PASS
+appearance light-520x460-x1.25                             PASS
+appearance light-520x460-x1.5                              PASS
+appearance light-520x460-x2                                PASS
+appearance light-800x780-x1                                PASS
+appearance light-800x780-x1.25                             PASS
+appearance light-800x780-x1.5                              PASS
+appearance light-800x780-x2                                PASS
+appearance light-1280x1000-x1                              PASS
+appearance light-1280x1000-x1.25                           PASS
+appearance light-1280x1000-x1.5                            PASS
+appearance light-1280x1000-x2                              PASS
+appearance dark-520x460-x1                                 PASS
+appearance dark-520x460-x1.25                              PASS
+appearance dark-520x460-x1.5                               PASS
+appearance dark-520x460-x2                                 PASS
+appearance dark-800x780-x1                                 PASS
+appearance dark-800x780-x1.25                              PASS
+appearance dark-800x780-x1.5                               PASS
+appearance dark-800x780-x2                                 PASS
+appearance dark-1280x1000-x1                               PASS
+appearance dark-1280x1000-x1.25                            PASS
+appearance dark-1280x1000-x1.5                             PASS
+appearance dark-1280x1000-x2                               PASS
+occupied slot: Convert stays disabled without approval     PASS
+occupied slot: file unchanged without approval             PASS
+occupied slot: replaced after approval                     PASS
+damaged save: explained and Convert disabled               PASS
+damaged save: the other 12 convert                         PASS
+cancel: nothing written                                    PASS
+Memoria: damaged data file blocks the batch                PASS
+Memoria: lossy conversion converts all 5                   PASS
+Memoria: sidecar-reconciled saves verify with the CLI      PASS
+
+33 passed, 0 failed

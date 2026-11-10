@@ -1,0 +1,17 @@
+{
+ "ps1": {
+  "records": 564,
+  "with_sa": 306,
+  "A_budget": 564,
+  "B_learnable": 564,
+  "C_ap_bounds": 564
+ },
+ "pc": {
+  "records": 199,
+  "with_sa": 122,
+  "A_budget": 199,
+  "B_learnable": 199,
+  "C_ap_bounds": 199
+ }
+}
+bonus rule D: 85 (character, stat) groups, 0 inconsistent

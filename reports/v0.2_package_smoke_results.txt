@@ -1,0 +1,63 @@
+Packaged qualification of FFIX Save Converter 0.2.0-dev (fresh extraction of the zip, first launch, Python not on PATH)
+
+556ce8c2b44e2371f9aee8fef0bcaae0297827e283f364fc71d1d9cec49011f9  FFIX-Save-Converter-0.2.0-dev-win-x64.zip
+6ad2fdb290a5d4c60b903231a4319753d5e8f035a2829e44c6e9b8b6409e09cf  FFIX Save Converter.exe
+f3793fb0bfde571a777244f311f8a767f99c282ffc771bfbb0c7f05a2fa80d88  ffix-convert.exe
+
+== Desktop app via Windows UI Automation (smoke_test_gui.ps1)
+PS1 window opens                   PASS
+PS1 saves listed                   PASS
+PS1 review enables Convert         PASS
+PS1 converts and verifies          PASS
+PS1 output written                 PASS
+PS1 independent verify (CLI)       PASS
+PS1 closes cleanly                 PASS
+PC window opens                    PASS
+PC saves listed                    PASS
+PC review enables Convert          PASS
+PC converts and verifies           PASS
+PC output written                  PASS
+PC independent verify (CLI)        PASS
+PC closes cleanly                  PASS
+sources unchanged                  PASS
+
+15 passed, 0 failed
+
+== Command line (smoke_test_exe.ps1)
+version                      PASS
+inspect PS1 card             PASS
+inspect PC file              PASS
+PS1 -> PC                    PASS
+PC -> PS1                    PASS
+PS1->PC->PS1                 PASS
+verify PS1 rt                PASS
+PC->PS1->PC                  PASS
+verify PC rt                 PASS
+into existing card           PASS
+refuse overwrite             PASS
+refuse in-place w/o force    PASS
+invalid input                PASS
+ambiguous source             PASS
+missing file                 PASS
+sources unchanged            PASS
+unrelated block preserved    PASS
+
+17 passed, 0 failed
+
+== Genuine Memoria save through the packaged command line
+Genuine Memoria native save (container + sidecar) -> PS1: PASS
+Independent verify: PASS
+
+converted PC slot 1/2 -> PS1 FILE01 (card block 1)
+  Bentini Heights: scenario 4390, Dagger Lv7, Steiner Lv8, Marcus Lv7
+  wrote   %TEMP%\v02_rel2_1794008510\memoria\genuine_memoria_to_ps1.mcr
+  report  %TEMP%\v02_rel2_1794008510\memoria\genuine_memoria_to_ps1.mcr.report.json
+  verified by re-reading the output: 37 fields equal, 3 normalized, 0 unexpected
+  compatibility: 6 transformed, 10 defaulted, 12 lossy/unsupported item(s) - details in the report
+verify PC 1/2  vs  PS1 1
+  [normalized] party.slot: [2, 3, 6, 255] -> [2, 3, 6, 9]  empty party position: 9 on PS1, 255 on PC
+  [normalized] cards: 33 cards -> 33 cards  PS1 keeps gaps between Tetra Master cards; PC packs them (same cards, same order)
+  [normalized] playtime: 43705.37 -> 43705.37  PS1 counts frames (1/60 s NTSC, 1/50 s PAL); PC counts seconds
+  not compared (exist on one platform only): 50000_Setting (options, key bindings), 70000_World camera angle, 60000_Sound, 80000_Achievement / 98000_Achievement (Steam achievement tracking), 10000_State timeCounter/timerControl/timerDisplay, PS1-only bytes (memory-card icon, unknown regions)
+result: 37 equal, 3 normalized (documented), 0 unexpected
+

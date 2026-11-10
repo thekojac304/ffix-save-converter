@@ -1,0 +1,14 @@
+Gulug/Path                 sc= 9950 <-> ff9save42_MountGulugEnd    sc= 9950 d=    0 same=1853/2048 (2nd 1846) field_eq=False
+Mage Village/Mill          sc= 9410 <-> ff9save36_BlackMageVillage sc= 9400 d=  -10 same=1860/2048 (2nd 1854) field_eq=False
+Gulug Mountains            sc= 9910 <-> ff9save41_MountGulug       sc= 9950 d=   40 same=1845/2048 (2nd 1842) field_eq=False
+Oeilvert/Star Display      sc= 9750 <-> ff9save39_OielvertBoss     sc= 9745 d=   -5 same=1858/2048 (2nd 1856) field_eq=True
+Palace/Library             sc= 9830 <-> ff9save40_KujaPalace       sc= 9825 d=   -5 same=1850/2048 (2nd 1846) field_eq=True
+Oeilvert/Star Display      sc= 9705 <-> ff9save38_Oielvert         sc= 9700 d=   -5 same=1857/2048 (2nd 1856) field_eq=False
+King Ed Plains             sc=11765 <-> ff9save50_AirshipsVsDragon sc=11100 d= -665 same=1723/2048 (2nd 1719) field_eq=True
+S. Gate/Rest Stop          sc= 4160 <-> ff9save15_SummitStation    sc= 4210 d=   50 same=1874/2048 (2nd 1864) field_eq=True
+Alexandria/Steeple         sc= 7100 <-> ff9save32_Disc3            sc= 6990 d= -110 same=1783/2048 (2nd 1781) field_eq=False
+Gegalrich Shores           sc=11100 <-> ff9save50_AirshipsVsDragon sc=11100 d=    0 same=1734/2048 (2nd 1727) field_eq=True
+Dali/Inn                   sc=11770 <-> ff9save44_EarthShrine      sc=10670 d=-1100 same=1667/2048 (2nd 1666) field_eq=False
+Kognish Shores             sc=11740 <-> ff9save45_ShimmeringIsland sc=10700 d=-1040 same=1669/2048 (2nd 1668) field_eq=False
+A. Castle/Guardhouse       sc= 1190 <-> ff9save02_AlexandriaCastle sc= 1190 d=    0 same=2028/2048 (2nd 2015) field_eq=True
+Alexandria/Steeple         sc= 1155 <-> ff9save01_Alexandria       sc= 1155 d=    0 same=2024/2048 (2nd 2011) field_eq=True

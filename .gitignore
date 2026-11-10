@@ -1,0 +1,29 @@
+# Third-party save files: no redistribution license. Never commit.
+fixtures/ps1/originals/
+fixtures/ps1/extracted/
+fixtures/pc/originals/
+fixtures/pc/extracted/
+# Genuine Memoria/Moguri and PS1 files from runtime tests of your own playthrough
+fixtures/memoria/
+# Generated inventories of the fixtures above (include personal-save details and third-party descriptions;
+# regenerate locally with tools/acquire.py and tools/build_manifest.py)
+fixtures/manifest.json
+fixtures/provenance.jsonl
+research/sources_*.json
+# Converted outputs derived from third-party saves
+reports/runtime_test_kit/
+# Cloned reference repositories (re-clone with the commands in README)
+research/repos/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Facts extracted locally from the installed game for audits; not redistributed
+research/vanilla_extracts/
+runtime_test_package/
+# Local release-candidate builds
+release/
+
+# Local source snapshots of earlier milestones
+snapshots/
+# Screenshots of the app showing personal saves
+reports/screenshots_v0.3/

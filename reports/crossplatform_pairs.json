@@ -1,0 +1,506 @@
+[
+ {
+  "pc_file": "fixtures/pc/originals/repos/ff9SaveLib_testdata_SavedData_ww.dat",
+  "pc_slot": [
+   1,
+   1
+  ],
+  "pc_location": "Gulug/Path",
+  "pc_scenario": 9950,
+  "pc_state": {
+   "mode": 1,
+   "prevMode": 1,
+   "fldMapNo": 2360,
+   "fldLocNo": 484,
+   "btlMapNo": 351,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9003,
+   "wldLocNo": 68
+  },
+  "best_ps1": "fixtures/ps1/extracted/fantasyanime/ff9save42_MountGulugEnd/epsxe000.mcr",
+  "best_ps1_location": "Gulug/Room",
+  "best_ps1_scenario": 9950,
+  "gevent_identical_bytes": 1853,
+  "second_best_identical_bytes": 1846,
+  "scenario_delta": 0,
+  "same_field": false,
+  "ps1_state": {
+   "mode": 1,
+   "prevMode": 1,
+   "fldMapNo": 2354,
+   "fldLocNo": 484,
+   "btlMapNo": 194,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9003,
+   "wldLocNo": 68
+  }
+ },
+ {
+  "pc_file": "fixtures/pc/originals/repos/ff9SaveLib_testdata_SavedData_ww.dat",
+  "pc_slot": [
+   1,
+   2
+  ],
+  "pc_location": "Mage Village/Mill",
+  "pc_scenario": 9410,
+  "pc_state": {
+   "mode": 1,
+   "prevMode": 3,
+   "fldMapNo": 1458,
+   "fldLocNo": 37,
+   "btlMapNo": 679,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9003,
+   "wldLocNo": 68
+  },
+  "best_ps1": "fixtures/ps1/extracted/fantasyanime/ff9save36_BlackMageVillage/epsxe000.mcr",
+  "best_ps1_location": "Magdalene Forest",
+  "best_ps1_scenario": 9400,
+  "gevent_identical_bytes": 1860,
+  "second_best_identical_bytes": 1854,
+  "scenario_delta": -10,
+  "same_field": false,
+  "ps1_state": {
+   "mode": 3,
+   "prevMode": 3,
+   "fldMapNo": 2855,
+   "fldLocNo": 186,
+   "btlMapNo": 289,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9003,
+   "wldLocNo": 68
+  }
+ },
+ {
+  "pc_file": "fixtures/pc/originals/repos/ff9SaveLib_testdata_SavedData_ww.dat",
+  "pc_slot": [
+   1,
+   3
+  ],
+  "pc_location": "Gulug Mountains",
+  "pc_scenario": 9910,
+  "pc_state": {
+   "mode": 3,
+   "prevMode": 1,
+   "fldMapNo": 2856,
+   "fldLocNo": 186,
+   "btlMapNo": 858,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9003,
+   "wldLocNo": 68
+  },
+  "best_ps1": "fixtures/ps1/extracted/fantasyanime/ff9save41_MountGulug/epsxe000.mcr",
+  "best_ps1_location": "Esto Gaza/Terrace",
+  "best_ps1_scenario": 9950,
+  "gevent_identical_bytes": 1845,
+  "second_best_identical_bytes": 1842,
+  "scenario_delta": 40,
+  "same_field": false,
+  "ps1_state": {
+   "mode": 1,
+   "prevMode": 1,
+   "fldMapNo": 2304,
+   "fldLocNo": 908,
+   "btlMapNo": 863,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9003,
+   "wldLocNo": 68
+  }
+ },
+ {
+  "pc_file": "fixtures/pc/originals/repos/ff9SaveLib_testdata_SavedData_ww.dat",
+  "pc_slot": [
+   1,
+   4
+  ],
+  "pc_location": "Oeilvert/Star Display",
+  "pc_scenario": 9750,
+  "pc_state": {
+   "mode": 1,
+   "prevMode": 1,
+   "fldMapNo": 2259,
+   "fldLocNo": 124,
+   "btlMapNo": 3,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9005,
+   "wldLocNo": 68
+  },
+  "best_ps1": "fixtures/ps1/extracted/fantasyanime/ff9save39_OielvertBoss/epsxe000.mcr",
+  "best_ps1_location": "Oeilvert/Star Display",
+  "best_ps1_scenario": 9745,
+  "gevent_identical_bytes": 1858,
+  "second_best_identical_bytes": 1856,
+  "scenario_delta": -5,
+  "same_field": true,
+  "ps1_state": {
+   "mode": 1,
+   "prevMode": 1,
+   "fldMapNo": 2259,
+   "fldLocNo": 124,
+   "btlMapNo": 467,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9005,
+   "wldLocNo": 68
+  }
+ },
+ {
+  "pc_file": "fixtures/pc/originals/repos/ff9SaveLib_testdata_SavedData_ww.dat",
+  "pc_slot": [
+   1,
+   5
+  ],
+  "pc_location": "Palace/Library",
+  "pc_scenario": 9830,
+  "pc_state": {
+   "mode": 1,
+   "prevMode": 1,
+   "fldMapNo": 2220,
+   "fldLocNo": 740,
+   "btlMapNo": 525,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9005,
+   "wldLocNo": 68
+  },
+  "best_ps1": "fixtures/ps1/extracted/fantasyanime/ff9save40_KujaPalace/epsxe000.mcr",
+  "best_ps1_location": "Palace/Library",
+  "best_ps1_scenario": 9825,
+  "gevent_identical_bytes": 1850,
+  "second_best_identical_bytes": 1846,
+  "scenario_delta": -5,
+  "same_field": true,
+  "ps1_state": {
+   "mode": 1,
+   "prevMode": 1,
+   "fldMapNo": 2220,
+   "fldLocNo": 740,
+   "btlMapNo": 851,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9005,
+   "wldLocNo": 68
+  }
+ },
+ {
+  "pc_file": "fixtures/pc/originals/repos/ff9SaveLib_testdata_SavedData_ww.dat",
+  "pc_slot": [
+   2,
+   1
+  ],
+  "pc_location": "Oeilvert/Star Display",
+  "pc_scenario": 9705,
+  "pc_state": {
+   "mode": 1,
+   "prevMode": 1,
+   "fldMapNo": 2259,
+   "fldLocNo": 124,
+   "btlMapNo": 464,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9005,
+   "wldLocNo": 68
+  },
+  "best_ps1": "fixtures/ps1/extracted/fantasyanime/ff9save38_Oielvert/epsxe000.mcr",
+  "best_ps1_location": "Oeilvert/Outside",
+  "best_ps1_scenario": 9700,
+  "gevent_identical_bytes": 1857,
+  "second_best_identical_bytes": 1856,
+  "scenario_delta": -5,
+  "same_field": false,
+  "ps1_state": {
+   "mode": 1,
+   "prevMode": 3,
+   "fldMapNo": 2250,
+   "fldLocNo": 124,
+   "btlMapNo": 68,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9005,
+   "wldLocNo": 68
+  }
+ },
+ {
+  "pc_file": "fixtures/pc/originals/steam/steam_cd3thread_SavedData_ww.dat",
+  "pc_slot": [
+   1,
+   1
+  ],
+  "pc_location": "King Ed Plains",
+  "pc_scenario": 11765,
+  "pc_state": {
+   "mode": 3,
+   "prevMode": 3,
+   "fldMapNo": 3050,
+   "fldLocNo": 1073,
+   "btlMapNo": 943,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9008,
+   "wldLocNo": 68
+  },
+  "best_ps1": "fixtures/ps1/extracted/fantasyanime/ff9save50_AirshipsVsDragons/epsxe000.mcr",
+  "best_ps1_location": "Pualei Plains",
+  "best_ps1_scenario": 11100,
+  "gevent_identical_bytes": 1723,
+  "second_best_identical_bytes": 1719,
+  "scenario_delta": -665,
+  "same_field": true,
+  "ps1_state": {
+   "mode": 3,
+   "prevMode": 1,
+   "fldMapNo": 3050,
+   "fldLocNo": 1073,
+   "btlMapNo": 672,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9008,
+   "wldLocNo": 68
+  }
+ },
+ {
+  "pc_file": "fixtures/pc/originals/steam/steam_cd3thread_SavedData_ww.dat",
+  "pc_slot": [
+   2,
+   1
+  ],
+  "pc_location": "S. Gate/Rest Stop",
+  "pc_scenario": 4160,
+  "pc_state": {
+   "mode": 1,
+   "prevMode": 1,
+   "fldMapNo": 810,
+   "fldLocNo": 74,
+   "btlMapNo": 4,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9000,
+   "wldLocNo": 68
+  },
+  "best_ps1": "fixtures/ps1/extracted/fantasyanime/ff9save15_SummitStation/epsxe000.mcr",
+  "best_ps1_location": "S. Gate/Rest Stop",
+  "best_ps1_scenario": 4210,
+  "gevent_identical_bytes": 1874,
+  "second_best_identical_bytes": 1864,
+  "scenario_delta": 50,
+  "same_field": true,
+  "ps1_state": {
+   "mode": 1,
+   "prevMode": 9,
+   "fldMapNo": 810,
+   "fldLocNo": 74,
+   "btlMapNo": 4,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9000,
+   "wldLocNo": 68
+  }
+ },
+ {
+  "pc_file": "fixtures/pc/originals/steam/steam_cd3thread_SavedData_ww.dat",
+  "pc_slot": [
+   2,
+   2
+  ],
+  "pc_location": "Alexandria/Steeple",
+  "pc_scenario": 7100,
+  "pc_state": {
+   "mode": 1,
+   "prevMode": 1,
+   "fldMapNo": 1865,
+   "fldLocNo": 90,
+   "btlMapNo": 114,
+   "btlSubMapNo": 1,
+   "wldMapNo": 9003,
+   "wldLocNo": 68
+  },
+  "best_ps1": "fixtures/ps1/extracted/fantasyanime/ff9save32_Disc3/epsxe000.mcr",
+  "best_ps1_location": "Start of DISC 3",
+  "best_ps1_scenario": 6990,
+  "gevent_identical_bytes": 1783,
+  "second_best_identical_bytes": 1781,
+  "scenario_delta": -110,
+  "same_field": false,
+  "ps1_state": {
+   "mode": 1,
+   "prevMode": 1,
+   "fldMapNo": 1812,
+   "fldLocNo": -1,
+   "btlMapNo": 114,
+   "btlSubMapNo": 1,
+   "wldMapNo": 9003,
+   "wldLocNo": 68
+  }
+ },
+ {
+  "pc_file": "fixtures/pc/originals/steam/steam_cd3thread_SavedData_ww.dat",
+  "pc_slot": [
+   2,
+   3
+  ],
+  "pc_location": "Gegalrich Shores",
+  "pc_scenario": 11100,
+  "pc_state": {
+   "mode": 3,
+   "prevMode": 1,
+   "fldMapNo": 3050,
+   "fldLocNo": 1073,
+   "btlMapNo": 891,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9008,
+   "wldLocNo": 68
+  },
+  "best_ps1": "fixtures/ps1/extracted/fantasyanime/ff9save50_AirshipsVsDragons/epsxe000.mcr",
+  "best_ps1_location": "Pualei Plains",
+  "best_ps1_scenario": 11100,
+  "gevent_identical_bytes": 1734,
+  "second_best_identical_bytes": 1727,
+  "scenario_delta": 0,
+  "same_field": true,
+  "ps1_state": {
+   "mode": 3,
+   "prevMode": 1,
+   "fldMapNo": 3050,
+   "fldLocNo": 1073,
+   "btlMapNo": 672,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9008,
+   "wldLocNo": 68
+  }
+ },
+ {
+  "pc_file": "fixtures/pc/originals/steam/steam_cd3thread_SavedData_ww.dat",
+  "pc_slot": [
+   2,
+   4
+  ],
+  "pc_location": "Dali/Inn",
+  "pc_scenario": 11770,
+  "pc_state": {
+   "mode": 1,
+   "prevMode": 3,
+   "fldMapNo": 351,
+   "fldLocNo": 47,
+   "btlMapNo": 950,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9008,
+   "wldLocNo": 68
+  },
+  "best_ps1": "fixtures/ps1/extracted/fantasyanime/ff9save44_EarthShrine/epsxe000.mcr",
+  "best_ps1_location": "Triquai Plains",
+  "best_ps1_scenario": 10670,
+  "gevent_identical_bytes": 1667,
+  "second_best_identical_bytes": 1666,
+  "scenario_delta": -1100,
+  "same_field": false,
+  "ps1_state": {
+   "mode": 3,
+   "prevMode": 1,
+   "fldMapNo": 2550,
+   "fldLocNo": 121,
+   "btlMapNo": 658,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9007,
+   "wldLocNo": 68
+  }
+ },
+ {
+  "pc_file": "fixtures/pc/originals/steam/steam_cd3thread_SavedData_ww.dat",
+  "pc_slot": [
+   4,
+   1
+  ],
+  "pc_location": "Kognish Shores",
+  "pc_scenario": 11740,
+  "pc_state": {
+   "mode": 3,
+   "prevMode": 1,
+   "fldMapNo": 2901,
+   "fldLocNo": 694,
+   "btlMapNo": 939,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9008,
+   "wldLocNo": 68
+  },
+  "best_ps1": "fixtures/ps1/extracted/fantasyanime/ff9save45_ShimmeringIsland/epsxe000.mcr",
+  "best_ps1_location": "Blairsurpass Plains",
+  "best_ps1_scenario": 10700,
+  "gevent_identical_bytes": 1669,
+  "second_best_identical_bytes": 1668,
+  "scenario_delta": -1040,
+  "same_field": false,
+  "ps1_state": {
+   "mode": 3,
+   "prevMode": 1,
+   "fldMapNo": 2853,
+   "fldLocNo": 186,
+   "btlMapNo": 2,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9007,
+   "wldLocNo": 68
+  }
+ },
+ {
+  "pc_file": "fixtures/pc/originals/steam/steam_jumprope_a_SavedData_ww.dat",
+  "pc_slot": [
+   1,
+   1
+  ],
+  "pc_location": "A. Castle/Guardhouse",
+  "pc_scenario": 1190,
+  "pc_state": {
+   "mode": 1,
+   "prevMode": 1,
+   "fldMapNo": 150,
+   "fldLocNo": 3,
+   "btlMapNo": 338,
+   "btlSubMapNo": -1,
+   "wldMapNo": 0,
+   "wldLocNo": 0
+  },
+  "best_ps1": "fixtures/ps1/extracted/fantasyanime/ff9save02_AlexandriaCastle/epsxe000.mcr",
+  "best_ps1_location": "A. Castle/Guardhouse",
+  "best_ps1_scenario": 1190,
+  "gevent_identical_bytes": 2028,
+  "second_best_identical_bytes": 2015,
+  "scenario_delta": 0,
+  "same_field": true,
+  "ps1_state": {
+   "mode": 1,
+   "prevMode": 1,
+   "fldMapNo": 150,
+   "fldLocNo": 3,
+   "btlMapNo": 338,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9009,
+   "wldLocNo": 68
+  }
+ },
+ {
+  "pc_file": "fixtures/pc/originals/steam/steam_jumprope_b_SavedData_ww.dat",
+  "pc_slot": [
+   1,
+   1
+  ],
+  "pc_location": "Alexandria/Steeple",
+  "pc_scenario": 1155,
+  "pc_state": {
+   "mode": 1,
+   "prevMode": 1,
+   "fldMapNo": 115,
+   "fldLocNo": 33,
+   "btlMapNo": 336,
+   "btlSubMapNo": -1,
+   "wldMapNo": 0,
+   "wldLocNo": 0
+  },
+  "best_ps1": "fixtures/ps1/extracted/fantasyanime/ff9save01_Alexandria/epsxe000.mcr",
+  "best_ps1_location": "Alexandria/Steeple",
+  "best_ps1_scenario": 1155,
+  "gevent_identical_bytes": 2024,
+  "second_best_identical_bytes": 2011,
+  "scenario_delta": 0,
+  "same_field": true,
+  "ps1_state": {
+   "mode": 1,
+   "prevMode": 1,
+   "fldMapNo": 115,
+   "fldLocNo": 33,
+   "btlMapNo": 336,
+   "btlSubMapNo": -1,
+   "wldMapNo": 9009,
+   "wldLocNo": 68
+  }
+ }
+]

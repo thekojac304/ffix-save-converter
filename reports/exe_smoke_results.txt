@@ -1,0 +1,19 @@
+version                      PASS
+inspect PS1 card             PASS
+inspect PC file              PASS
+PS1 -> PC                    PASS
+PC -> PS1                    PASS
+PS1->PC->PS1                 PASS
+verify PS1 rt                PASS
+PC->PS1->PC                  PASS
+verify PC rt                 PASS
+into existing card           PASS
+refuse overwrite             PASS
+refuse in-place w/o force    PASS
+invalid input                PASS
+ambiguous source             PASS
+missing file                 PASS
+sources unchanged            PASS
+unrelated block preserved    PASS
+
+17 passed, 0 failed

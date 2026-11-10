@@ -1,0 +1,502 @@
+[
+ {
+  "canonical": "state.mode",
+  "ps1": "0x180 u8",
+  "pc": "10000_State.mode",
+  "type": "u8",
+  "transform": "copy",
+  "class": "inferred",
+  "evidence": "1 on field saves, 3 on world-map saves in both corpora; PC pair 'Steeple' mode=1 equals PS1",
+  "test": "test_cross_platform_state"
+ },
+ {
+  "canonical": "state.prevMode",
+  "ps1": "0x181 u8",
+  "pc": "10000_State.prevMode",
+  "type": "u8",
+  "transform": "copy",
+  "class": "inferred",
+  "evidence": "Steeple pair equal (1/1); values 1/3/9 consistent with mode codes",
+  "test": "test_cross_platform_state"
+ },
+ {
+  "canonical": "state.fldMapNo",
+  "ps1": "0x1A0 i16",
+  "pc": "10000_State.fldMapNo",
+  "type": "i16",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "Steeple pair 115==115; Gulug pair (scenario 9950) uses same field-ID space",
+  "test": "test_cross_platform_state"
+ },
+ {
+  "canonical": "state.fldLocNo",
+  "ps1": "0x1A2 i16",
+  "pc": "10000_State.fldLocNo",
+  "type": "i16",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "Steeple pair 33==33",
+  "test": "test_cross_platform_state"
+ },
+ {
+  "canonical": "state.btlMapNo",
+  "ps1": "0x1A4 i16",
+  "pc": "10000_State.btlMapNo",
+  "type": "i16",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "Steeple pair 336==336",
+  "test": "test_cross_platform_state"
+ },
+ {
+  "canonical": "state.btlSubMapNo",
+  "ps1": "0x1A6 i8 (0x1A7 = sign extension)",
+  "pc": "10000_State.btlSubMapNo",
+  "type": "i8",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "Steeple pair -1==-1; PS1 0/1 values occur with 0x1A7=00",
+  "test": "test_cross_platform_state"
+ },
+ {
+  "canonical": "state.wldMapNo",
+  "ps1": "0x1A8 i16",
+  "pc": "10000_State.wldMapNo",
+  "type": "i16",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "PS1 values 9000-9011 match PC world-map IDs (9000/9003/9005/9008 seen on PC). Before the first world-map visit PS1 holds 9009 where PC holds 0; the PC overwrites it on world-map entry (ff9.cs)",
+  "test": "test_cross_platform_state"
+ },
+ {
+  "canonical": "state.wldLocNo",
+  "ps1": "0x1AA i16",
+  "pc": "10000_State.wldLocNo",
+  "type": "i16",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "68 on every PS1 save and every post-intro PC save (PC: 0 before first world-map visit)",
+  "test": "test_cross_platform_state"
+ },
+ {
+  "canonical": "state.timeCounter/timerControl/timerDisplay",
+  "ps1": "unknown",
+  "pc": "10000_State.timer*",
+  "type": "f32/bool",
+  "transform": "default 0/False/False",
+  "class": "unknown",
+  "evidence": "PS1 countdown-timer storage not located; save points are outside timed sequences",
+  "test": "test_defaults"
+ },
+ {
+  "canonical": "event.gEventGlobal",
+  "ps1": "0x1C0..0x9BF (2048 B)",
+  "pc": "20000_Event.gEventGlobal (base64 in String4K)",
+  "type": "bytes[2048]",
+  "transform": "base64 encode",
+  "class": "verified-transformable",
+  "evidence": "Steeple pair 2024/2048 identical, Gulug pair 1846/2048 identical across different players; u16[0] is the scenario counter in both",
+  "test": "test_gevent_cross_platform"
+ },
+ {
+  "canonical": "ps1 disc",
+  "ps1": "0x104 bitmask 1/2/4/8",
+  "pc": "-",
+  "type": "u8",
+  "transform": "PC->PS1: from scenario-counter ranges; ambiguous gaps need --disc",
+  "class": "verified-transformable",
+  "evidence": "masks of all 82 PS1 saves agree with the ranges (incl. 'Start of DISC 2/3/4' saves)",
+  "test": "test_disc_derivation_and_ambiguity"
+ },
+ {
+  "canonical": "ps1 header/title/icon",
+  "ps1": "0x000-0x0FF",
+  "pc": "-",
+  "type": "bytes",
+  "transform": "PC->PS1: title 'FF9/FILEnn/hh:mm', project-drawn icon",
+  "class": "platform-specific",
+  "evidence": "title format observed on all PS1 saves; icon is cosmetic",
+  "test": "test_pc_ps1_pc_preserves_common_fields"
+ },
+ {
+  "canonical": "event.gStepCount",
+  "ps1": "unknown (0x9C0 u32 grows monotonically; unproven)",
+  "pc": "20000_Event.gStepCount",
+  "type": "i32",
+  "transform": "write 0",
+  "class": "platform-specific",
+  "evidence": "Every PC fixture stores 0; Memoria notes the PC never tracks it",
+  "test": "test_defaults"
+ },
+ {
+  "canonical": "players[].name",
+  "ps1": "+0x00 10 B PS1 text",
+  "pc": "players[].name (UTF-8 String128)",
+  "type": "string",
+  "transform": "PS1 text table -> UTF-8",
+  "class": "verified-transformable",
+  "evidence": "'Zidane', 'Dagger', '??????' identical on Steeple pair",
+  "test": "test_player_names"
+ },
+ {
+  "canonical": "players[].category",
+  "ps1": "+0x0A u8",
+  "pc": "players[].category",
+  "type": "u8",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "Steeple pair 9/5/6",
+  "test": "test_player_core"
+ },
+ {
+  "canonical": "players[].level",
+  "ps1": "+0x0B u8",
+  "pc": "players[].level",
+  "type": "u8",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "Steeple pair; documented by both editors",
+  "test": "test_player_core"
+ },
+ {
+  "canonical": "players[].exp",
+  "ps1": "+0x0C u32",
+  "pc": "players[].exp",
+  "type": "u32",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "documented by both editors",
+  "test": "test_player_core"
+ },
+ {
+  "canonical": "players[].cur.*",
+  "ps1": "+0x10 hp u16, mp i16, at i16, at_coef i8, capa u8",
+  "pc": "players[].cur",
+  "type": "struct",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "Steeple pair hp/mp/at_coef/capa equal (at is live ATB gauge)",
+  "test": "test_player_core"
+ },
+ {
+  "canonical": "players[].max.*",
+  "ps1": "+0x18 same layout",
+  "pc": "players[].max",
+  "type": "struct",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "Steeple pair equal incl. at=5920",
+  "test": "test_player_core"
+ },
+ {
+  "canonical": "players[].trance",
+  "ps1": "+0x20 u8",
+  "pc": "players[].trance",
+  "type": "u8",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "documented; plausible ranges",
+  "test": "test_player_core"
+ },
+ {
+  "canonical": "players[].web_bone",
+  "ps1": "+0x21 u8",
+  "pc": "players[].web_bone",
+  "type": "u8",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "Gulug pair slots 0-7 identical; PC leaves it 0 at game start and in slot 8 while PS1 does not. Never read by the PC runtime (Memoria source)",
+  "test": "test_player_core"
+ },
+ {
+  "canonical": "players[].elem.*",
+  "ps1": "+0x24 dex,str,mgc,wpr u8",
+  "pc": "players[].elem",
+  "type": "struct",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "Steeple pair",
+  "test": "test_player_core"
+ },
+ {
+  "canonical": "players[].defence.*",
+  "ps1": "+0x28 p_def,p_ev,m_def,m_ev u8",
+  "pc": "players[].defence",
+  "type": "struct",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "Steeple pair",
+  "test": "test_player_core"
+ },
+ {
+  "canonical": "players[].basis.*",
+  "ps1": "+0x2C max_hp i16, max_mp i16, dex,str,mgc,wpr u8",
+  "pc": "players[].basis",
+  "type": "struct",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "Steeple pair",
+  "test": "test_player_core"
+ },
+ {
+  "canonical": "players[].info",
+  "ps1": "+0x34 u32: bits0-3 slot_no, 4-8 serial_no, 9 row, 10 win_pose, 11 party, 12-16 menu_type",
+  "pc": "players[].info",
+  "type": "bitfield -> 6 bytes",
+  "transform": "unpack/pack bits; PS1 write rejects values over the bit widths",
+  "class": "verified-transformable",
+  "evidence": "Steeple pair: all 9 records identical incl. Blank serial 16 / Beatrix 18; Phase 2 audit found menu_type is 5 bits (early Cinna/Marcus/Blank = 17/18/19, matching the user's PC save) - fixed. Runtime: the PC recomputes serial_no (FF9Play_GetSerialID; Steiner is always 7 on PC, PS1 may hold 8) after battles",
+  "test": "test_menu_type_is_five_bits_regression"
+ },
+ {
+  "canonical": "players[].status",
+  "ps1": "+0x38 u8",
+  "pc": "players[].status",
+  "type": "u8",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "documented",
+  "test": "test_player_core"
+ },
+ {
+  "canonical": "players[].equip[5]",
+  "ps1": "+0x39..0x3D",
+  "pc": "players[].equip",
+  "type": "u8[5]",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "Steeple pair identical equipment IDs",
+  "test": "test_player_core"
+ },
+ {
+  "canonical": "players[].bonus.*",
+  "ps1": "+0x3E dex,str,mgc,wpr u16",
+  "pc": "players[].bonus",
+  "type": "u16[4]",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "vanilla ff9level formulas (basis = base + level term + bonus>>5) give one constant base per character across all 763 PS1+PC records",
+  "test": "test_stat_growth_bonus_reproduces_vanilla_formula"
+ },
+ {
+  "canonical": "players[].bonus.cap",
+  "ps1": "+0x46 u16",
+  "pc": "94000_Common.00001_player_bonus[i]",
+  "type": "u16->u32",
+  "transform": "copy; PC->PS1: 0 -> (level-1)*5 (+extra for serial 10/11), the vanilla PC load rule",
+  "class": "verified-transformable",
+  "evidence": "vanilla FF9Level_GetCap formula consistent on all records; PC treats 0 as 'derive' (JsonParser), so PS1 guests with cap 0 (Beatrix, early Marcus) get the derived cap on PC exactly like native PC saves",
+  "test": "test_ps1_pc_ps1_preserves_gameplay_state"
+ },
+ {
+  "canonical": "players[].pa[48]",
+  "ps1": "+0x58 u8[48]",
+  "pc": "players[].pa",
+  "type": "u8[48]",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "every AP value <= the vanilla PA-table requirement of its slot for the character's menu_type (763 records)",
+  "test": "test_support_abilities_and_ap_follow_vanilla_rules_on_every_record"
+ },
+ {
+  "canonical": "players[].sa[2]",
+  "ps1": "+0x88 u32[2]",
+  "pc": "players[].sa",
+  "type": "u32[2]",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "vanilla bit test sa[n>>5]&(1<<n); for all 763 PS1+PC records cur.capa == max.capa - sum(gem cost of set bits) and every set bit is learnable by that character (otherwise vanilla unequips all SAs on load)",
+  "test": "test_support_abilities_and_ap_follow_vanilla_rules_on_every_record"
+ },
+ {
+  "canonical": "party.slot[4]",
+  "ps1": "0xEE0 u8[4], empty=9",
+  "pc": "40000_Common.slot",
+  "type": "u8[4]",
+  "transform": "9 -> 255",
+  "class": "verified-transformable",
+  "evidence": "Steeple pair [1,9,9,9] vs [1,255,255,255]",
+  "test": "test_party_slots"
+ },
+ {
+  "canonical": "party.escape_no",
+  "ps1": "0xEE4 u16",
+  "pc": "40000_Common.escape_no",
+  "type": "u16",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "vanilla PARTY_DATA order; grows on escapes through the user's own PS1 run",
+  "test": "test_party_counters"
+ },
+ {
+  "canonical": "party.summon_flag",
+  "ps1": "0xEE6 u16",
+  "pc": "40000_Common.summon_flag",
+  "type": "u16",
+  "transform": "copy",
+  "class": "inferred",
+  "evidence": "struct order; PC fixtures are always 0 (PC may ignore it)",
+  "test": "test_party_counters"
+ },
+ {
+  "canonical": "party.gil",
+  "ps1": "0xEE8 u32",
+  "pc": "40000_Common.gil",
+  "type": "u32",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "equals PS1 preview gil on all 54 PS1 saves; documented",
+  "test": "test_party_counters"
+ },
+ {
+  "canonical": "party.frog_no",
+  "ps1": "0xEEC i16",
+  "pc": "40000_Common.frog_no",
+  "type": "i16",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "RAM order frog/steal/dragon (vanilla FF9StateGlobal; CodeBreaker codes 8008B7B8/8008B7BA); 0 until Qu's Marsh in both PS1 corpora",
+  "test": "test_steal_and_dragon_counters_regression"
+ },
+ {
+  "canonical": "party.steal_no",
+  "ps1": "0xEEE i16",
+  "pc": "40000_Common.steal_no",
+  "type": "i16",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "user's PS1 run: 3 at the Steeple (the opening steals, as in every PC save) rising to 31",
+  "test": "test_steal_and_dragon_counters_regression"
+ },
+ {
+  "canonical": "party.dragon_no",
+  "ps1": "0xEF0 i16",
+  "pc": "40000_Common.dragon_no",
+  "type": "i16",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "user's PS1 run: 0 until the world map opens, then grows",
+  "test": "test_steal_and_dragon_counters_regression"
+ },
+ {
+  "canonical": "items[256]",
+  "ps1": "0xF20 (id u8, count u8) x256",
+  "pc": "40000_Common.items",
+  "type": "struct[256]",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "Steeple pair: same item IDs in same order",
+  "test": "test_items"
+ },
+ {
+  "canonical": "rare_items[64]",
+  "ps1": "0x1120 u8[64]",
+  "pc": "40000_Common.rareItems",
+  "type": "u8[64]",
+  "transform": "copy",
+  "class": "verified-equivalent",
+  "evidence": "vanilla ff9item: 2 bits per key item (obtained, used); on 9 exact story pairs the PC player's obtained items are a subset of the PS1 player's",
+  "test": "test_exact_story_pairs_with_user_save"
+ },
+ {
+  "canonical": "minigame.sWin/sLose/sDraw",
+  "ps1": "0x1178 i16 x3",
+  "pc": "30000_MiniGame.sWin/sLose/sDraw",
+  "type": "i16",
+  "transform": "copy",
+  "class": "inferred",
+  "evidence": "documented by gjoerulv",
+  "test": "test_cards"
+ },
+ {
+  "canonical": "minigame.cards",
+  "ps1": "0x117E (id, arrow, atk, type, pdef, mdef) x105",
+  "pc": "30000_MiniGame.MiniGameCard[100]",
+  "type": "struct",
+  "transform": "copy fields; side=0; cpoint=10; empty -> all 255; compact; >100 rejected",
+  "class": "verified-transformable",
+  "evidence": "field order documented by both editors; cpoint=10 for all 100 IDs across PC fixtures",
+  "test": "test_cards"
+ },
+ {
+  "canonical": "playtime",
+  "ps1": "preview 0x12C u32 frames",
+  "pc": "95000_Setting.00001_time (f64 seconds)",
+  "type": "u32->f64",
+  "transform": "frames / 60 (NTSC) or / 50 (PAL); reverse rounds to whole frames",
+  "class": "inferred",
+  "evidence": "magnitudes plausible vs story position; frame rate per gjoerulv notes",
+  "test": "test_playtime"
+ },
+ {
+  "canonical": "preview.location",
+  "ps1": "0x110 28 B PS1 text",
+  "pc": "preview.Location",
+  "type": "string",
+  "transform": "decode PS1 text",
+  "class": "verified-transformable",
+  "evidence": "cosmetic: the PC rebuilds it from the field on next save",
+  "test": "test_preview"
+ },
+ {
+  "canonical": "settings.cfg",
+  "ps1": "unknown",
+  "pc": "50000_Setting.cfg",
+  "type": "struct",
+  "transform": "PC template slot, else vanilla FF9CFG + HonoInputManager defaults; dropped PC->PS1",
+  "class": "unknown",
+  "evidence": "PS1 config location not established; defaults equal the bindings in the user's own PC save",
+  "test": "test_defaults_match_what_the_game_writes"
+ },
+ {
+  "canonical": "settings.time",
+  "ps1": "-",
+  "pc": "50000_Setting.time",
+  "type": "f32",
+  "transform": "write -1.0",
+  "class": "platform-specific",
+  "evidence": "PC always writes -1 (dummy)",
+  "test": "test_defaults"
+ },
+ {
+  "canonical": "sound.auto_save_bgm_id",
+  "ps1": "-",
+  "pc": "60000_Sound.auto_save_bgm_id",
+  "type": "i32",
+  "transform": "write -1",
+  "class": "platform-specific",
+  "evidence": "all PC fixtures -1",
+  "test": "test_defaults"
+ },
+ {
+  "canonical": "world.camera/hintmap",
+  "ps1": "unknown",
+  "pc": "70000_World.*",
+  "type": "mixed",
+  "transform": "copy from template else 0",
+  "class": "unknown",
+  "evidence": "world-map camera angle only; not progression",
+  "test": "test_defaults"
+ },
+ {
+  "canonical": "achievements",
+  "ps1": "-",
+  "pc": "80000_Achievement.*, 98000_Achievement.*",
+  "type": "mixed",
+  "transform": "counters 0; abilities/passiveAbilities/QuadmistWinList = -1 (game's empty marker); dropped PC->PS1",
+  "class": "platform-specific",
+  "evidence": "Steam achievement tracking; vanilla treats any value other than -1 as an entry",
+  "test": "test_defaults_match_what_the_game_writes"
+ },
+ {
+  "canonical": "reserved buffers",
+  "ps1": "-",
+  "pc": "91000..99000 reserved arrays",
+  "type": "i32[]",
+  "transform": "zero",
+  "class": "platform-specific",
+  "evidence": "all PC fixtures are zero",
+  "test": "test_defaults"
+ }
+]
