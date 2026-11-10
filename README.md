@@ -4,7 +4,23 @@ Move a Final Fantasy IX playthrough between the original **PlayStation** version
 **2016 PC/Steam** version, in either direction. Story progress, location, party, levels, stats, abilities, equipment,
 items, key items, gil and Tetra Master cards are carried over.
 
-**Version 0.3.0-dev (development build, not released).**
+![A PlayStation memory card with 15 saves loaded in the converter](docs/images/ps1-card-to-pc.png)
+
+**Version 0.3.0-dev — development pre-release.** Both directions have been tested in the real games (details below),
+but the package has only been run on the developer's Windows 11 PC, not yet on clean Windows 10/11 machines.
+
+## Download
+
+Get `FFIX-Save-Converter-0.3.0-dev-win-x64.zip` from the [Releases page](../../releases). It is a portable folder:
+unzip it anywhere and start `FFIX Save Converter.exe` (desktop app) or use `ffix-convert.exe` (command line). No
+installation or Python is needed. Requires Windows 10 or 11, 64-bit. Check the download against `SHA256SUMS.txt`.
+
+| PC save → PlayStation (dark theme) | Result after a batch conversion |
+|---|---|
+| ![A PC SavedData_ww.dat with Memoria data loaded](docs/images/pc-to-ps1-dark.png) | ![13 saves converted and checked](docs/images/conversion-result.png) |
+
+## What's in 0.3.0-dev
+
 - New: **batch conversion.** A whole PS1 memory card becomes one PC save slot (FILE01–FILE15 → files 1–15); a whole
   PC save file becomes as many memory cards as it needs. Selected saves only, existing destination files, and manual
   placement are supported. All files are written as one all-or-nothing operation.
@@ -19,7 +35,8 @@ See [COMPATIBILITY.md](COMPATIBILITY.md) for exactly what was tested and what wa
 
 ## Desktop app (Windows 10/11 x64)
 
-Unzip the package anywhere and start **FFIX Save Converter.exe**. No installation or Python needed.
+Unzip the package from the [Releases page](../../releases) anywhere and start **FFIX Save Converter.exe**. No
+installation or Python needed.
 
 1. **Your saves.** Drag a memory card or `SavedData_ww.dat` onto the window, or click Browse. The app says what it
    found (*"15 Final Fantasy IX saves (FILE01–FILE15)"*). Convert all of them (the default) or choose some.
