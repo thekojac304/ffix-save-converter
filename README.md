@@ -11,7 +11,7 @@ but the package has only been run on the developer's Windows 11 PC, not yet on c
 
 ## Download
 
-Get `FFIX-Save-Converter-0.3.0-dev-win-x64.zip` from the [Releases page](../../releases). It is a portable folder:
+Get [`FFIX-Save-Converter-0.3.0-dev-win-x64.zip`](https://github.com/thekojac304/ffix-save-converter/releases/download/v0.3.0-dev/FFIX-Save-Converter-0.3.0-dev-win-x64.zip) from the [v0.3.0-dev release](https://github.com/thekojac304/ffix-save-converter/releases/tag/v0.3.0-dev). It is a portable folder:
 unzip it anywhere and start `FFIX Save Converter.exe` (desktop app) or use `ffix-convert.exe` (command line). No
 installation or Python is needed. Requires Windows 10 or 11, 64-bit. Check the download against `SHA256SUMS.txt`.
 
